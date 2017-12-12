@@ -1,0 +1,238 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+    min-height: 500px;
+	background: white;
+    overflow: hidden;
+}
+q, p {
+	margin: 0;
+	padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-align: center;
+}
+
+b, strong { font-weight: bold; }
+
+i, em { 
+	font-style: italic;
+	text-decoration: none;	
+}
+img{
+    max-width: 100%;
+    display:block;
+    margin:0 auto;
+}
+a{
+    color: darkgreen;
+}
+#logo_img{
+    width:100%;
+    max-height: auto;
+    display:inline-block;
+}
+#howwework{
+    font-family: 'PT Serif', georgia, serif;
+    font-size: 48px;
+    line-height: 1.5;
+}
+.margem{
+    margin-top: 50px;
+}
+#servico{
+    position: relative;
+    margin-right: 850px;
+    bottom: -25px;
+}
+.intro{
+    color: #71767f;
+    font-family: "raleway-regular", arial!important;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 100px;
+    letter-spacing: 1px;
+}
+.title{
+    font-family: 'PT Serif', georgia, serif;
+    font-size: 48px;
+    line-height: 1.5;
+    position: relative;
+    margin-top:-100px;
+    right: 550px;
+}
+#contato{
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-position: center 225px;
+}   
+.contato{
+
+    font-family: 'PT Serif', georgia, serif;
+    font-size: 48px;
+    line-height: 1.5;
+    color: darkgreen;
+    text-align: center;
+    margin-top: -10px;
+}
+/* - slides - */
+.step {
+    width:550px;
+    height:400px;
+    margin:0 auto;
+    padding: 40px;
+    margin: 20px auto;
+}
+.slide{
+    width:1000px;
+    height:650px;
+    margin:0 auto;
+    padding: 40px;
+    margin: 20px auto;
+    overflow: hidden;
+    background-color: #cccccc;
+        
+    font-family: 'PT Serif', georgia, serif;
+       
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    
+    -moz-border-radius-bottomleft:20px;
+    -moz-border-radius-bottomright:20px;
+    -moz-border-radius-topleft:20px;
+    -moz-border-radius-topright:20px;
+    -webkit-border-bottom-left-radius:20px;
+    -webkit-border-bottom-right-radius:20px;
+    -webkit-border-top-left-radius:20px;
+    -webkit-border-top-right-radius:20px;
+    
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+#overview { display:none;}
+/* - aparencia impress  - */
+.fallback-message {
+    font-family: sans-serif;
+    line-height: 1.3;
+
+    width: 780px;
+    padding: 10px 10px 0;
+    margin: 20px auto;
+
+    border: 1px solid #E4C652;
+    border-radius: 10px;
+    background: #EEDC94;
+}
+.fallback-message p {
+    margin-bottom: 10px;
+}
+.impress-supported .fallback-message {
+    display: none;
+}
+.no-support-message { display:none;}
+.impress-not-supported .no-support-message { display:block;}
+.hint {   
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 40px;
+
+    background: rgba(220,220,220, 0.5);
+    color: #366263;
+    text-align: center;
+
+    font-size: 50px;
+    padding: 20px;
+
+    z-index: 100;
+
+    opacity: 0;
+    -webkit-transform: translateY(400px);
+    -moz-transform:    translateY(400px);
+    -ms-transform:     translateY(400px);
+    -o-transform:      translateY(400px);
+    transform:         translateY(400px);
+
+    -webkit-transition: opacity 1s, -webkit-transform 0.5s 1s;
+    -moz-transition:    opacity 1s,    -moz-transform 0.5s 1s;
+    -ms-transition:     opacity 1s,     -ms-transform 0.5s 1s;
+    -o-transition:      opacity 1s,      -o-transform 0.5s 1s;
+    transition:         opacity 1s,         transform 0.5s 1s;
+}
+.impress-enabled .hint { display: block; }
+.impress-on-slide1 .hint {  
+    opacity: 1;
+
+    -webkit-transform: translateY(0px);
+    -moz-transform:    translateY(0px);
+    -ms-transform:     translateY(0px);
+    -o-transform:      translateY(0px);
+    transform:         translateY(0px);
+
+    -webkit-transition: opacity 1s 5s, -webkit-transform 0.5s 4.5s;
+    -moz-transition:    opacity 1s 5s,    -moz-transform 0.5s 4.5s;
+    -ms-transition:     opacity 1s 5s,     -ms-transform 0.5s 4.5s;
+    -o-transition:      opacity 1s 5s,      -o-transform 0.5s 4.5s;
+    transition:         opacity 1s 5s,         transform 0.5s 4.5s;
+}
+.impress-enabled .step {
+    margin: 0;
+    opacity: 0.3;
+
+    -webkit-transition: opacity 1s;
+    -moz-transition:    opacity 1s;
+    -ms-transition:     opacity 1s;
+    -o-transition:      opacity 1s;
+    transition:         opacity 1s;
+}
+.impress-enabled .step.active { opacity: 1; }
+.impress-enabled          { pointer-events: none; }
+.impress-enabled #impress { pointer-events: auto; }
+/**
+ * Position icons into circle (SO)
+ * http://stackoverflow.com/q/12813573/1397351 
+ */
+.circle-container {
+    position: relative;
+    width: 24em;
+    height: 24em;
+    padding: 2.8em; /*= 2em * 1.4 (2em = half the width of an img, 1.4 = sqrt(2))*/
+    border-radius: 50%;
+    margin: 1.75em auto 0;
+    margin-top: -25px;
+}
+.circle-container #servico , .intro{
+    display: block;
+    position: absolute;
+    top: 50%; left: 50%;
+    width: 4em; height: 4em;
+    margin: -2em; /* 2em = 4em/2 */ /* half the width */
+}
+.circle-container img { display: block; width: 100%; }
+.deg0 { transform: translate(12em); } /* 12em = half the width of the wrapper */
+.deg45 { transform: rotate(45deg) translate(12em) rotate(-45deg); }
+.deg135 { transform: rotate(135deg) translate(12em) rotate(-135deg); }
+.deg180 { transform: translate(-12em); }
+.deg225 { transform: rotate(225deg) translate(12em) rotate(-225deg); }
+.deg315 { transform: rotate(315deg) translate(12em) rotate(-315deg); }
+/**
+ * Position icons into circle (SO)
+ * http://stackoverflow.com/q/12813573/1397351 
+ */
+ /* fade effect*/
+.future .fade-in {
+    opacity: 0.0;
+}
+.present .fade-in {
+    opacity: 1.0;
+    transition: 3s;
+}
+.past .fade-out {
+    opacity: 0.0;
+    transition: 3s;
+}

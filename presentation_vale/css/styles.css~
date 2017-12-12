@@ -1,0 +1,207 @@
+.fallback-message {
+    font-family: sans-serif;
+    line-height: 1.3;
+
+    width: 780px;
+    padding: 10px 10px 0;
+    margin: 20px auto;
+
+    border: 1px solid #E4C652;
+    border-radius: 10px;
+    background: #EEDC94;
+}
+
+.fallback-message p {
+    margin-bottom: 10px;
+}
+
+.impress-supported .fallback-message {
+    display: none;
+}
+
+
+.no-support-message { display:none;}
+
+.impress-not-supported .no-support-message { display:block;}
+
+body {
+    	font-family: 'PT Sans', sans-serif;
+    	min-height: 740px;
+	
+  	background: rgb(236, 174, 174);
+
+}
+
+#background {
+	background-repeat: no-repeat;
+	background-position: center center;
+	width:100%;
+	height:100%;
+}
+
+q, p {
+	margin: 0;
+	padding: 0;
+    	border: 0;
+    	font-size: 100%;
+    	font: inherit;
+    	vertical-align: baseline;
+}
+
+b, strong { font-weight: bold; }
+
+i, em { 
+	font-style: italic;
+	text-decoration: underline;	
+ }
+
+b {
+	color: #FF8C69;
+}
+
+#footnote {
+    	font-size: 32px;
+	position: relative;
+
+}
+
+#prezi {
+	width:100%;
+	height:100%;	
+	overflow:hidden;
+}
+
+#slide6, #slide7, #slide8, #slide9{
+				   text-align:center; 		
+}
+
+#slide5 {
+	font-size:37px;
+ }
+
+.step {
+	width:550px;
+	height:400px;
+	margin:0 auto;
+	overflow:hidden;
+	padding: 40px;
+	margin: 20px auto;
+	
+font-family: 'PT Serif', georgia, serif;
+font-size: 48px;
+line-height: 1.5;
+
+}
+
+.slide{
+background-color: #E6C9C9;
+width:550px;
+height:400px;
+margin:0 auto;
+overflow:hidden;
+padding: 40px;
+margin: 20px auto;
+	
+font-family: 'PT Serif', georgia, serif;
+font-size: 48px;
+line-height: 1.5;
+
+
+
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	
+	-moz-border-radius-bottomleft:20px;
+	-moz-border-radius-bottomright:20px;
+	-moz-border-radius-topleft:20px;
+	-moz-border-radius-topright:20px;
+	-webkit-border-bottom-left-radius:20px;
+	-webkit-border-bottom-right-radius:20px;
+	-webkit-border-top-left-radius:20px;
+	-webkit-border-top-right-radius:20px;
+	
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+
+
+#logorodape {
+ 	width:100%;
+	height:100%;
+	position: center;
+
+}
+
+#overview { display:none;}
+
+.hint {   
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 40px;
+
+    background: rgba(152, 36, 36, 0.5);
+    color: #8B0000;
+    text-align: center;
+
+    font-size: 50px;
+    padding: 20px;
+
+    z-index: 100;
+
+    opacity: 0;
+    -webkit-transform: translateY(400px);
+    -moz-transform:    translateY(400px);
+    -ms-transform:     translateY(400px);
+    -o-transform:      translateY(400px);
+    transform:         translateY(400px);
+
+    -webkit-transition: opacity 1s, -webkit-transform 0.5s 1s;
+    -moz-transition:    opacity 1s,    -moz-transform 0.5s 1s;
+    -ms-transition:     opacity 1s,     -ms-transform 0.5s 1s;
+    -o-transition:      opacity 1s,      -o-transform 0.5s 1s;
+    transition:         opacity 1s,         transform 0.5s 1s;
+}
+
+.impress-enabled .hint { display: block; }
+
+.impress-on-slide1 .hint {  
+    opacity: 1;
+
+    -webkit-transform: translateY(0px);
+    -moz-transform:    translateY(0px);
+    -ms-transform:     translateY(0px);
+    -o-transform:      translateY(0px);
+    transform:         translateY(0px);
+
+    -webkit-transition: opacity 1s 5s, -webkit-transform 0.5s 4.5s;
+    -moz-transition:    opacity 1s 5s,    -moz-transform 0.5s 4.5s;
+    -ms-transition:     opacity 1s 5s,     -ms-transform 0.5s 4.5s;
+    -o-transition:      opacity 1s 5s,      -o-transform 0.5s 4.5s;
+    transition:         opacity 1s 5s,         transform 0.5s 4.5s;
+}
+
+.impress-enabled .step {
+    margin: 0;
+    opacity: 0.3;
+
+    -webkit-transition: opacity 1s;
+    -moz-transition:    opacity 1s;
+    -ms-transition:     opacity 1s;
+    -o-transition:      opacity 1s;
+    transition:         opacity 1s;
+}
+
+.impress-enabled .step.active { opacity: 1; }
+
+.impress-enabled          { pointer-events: none; }
+
+.impress-enabled #impress { pointer-events: auto; }
+
+
+

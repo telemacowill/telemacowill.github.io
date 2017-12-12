@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+    		<meta name="viewport" content="width=1024" />
+    		<meta name="apple-mobile-web-app-capable" content="yes"/>	
+		<meta name="author" content="AT_Wi22" /> 	
+		
+		<title>Bright Tecnologia e Publicidade</title>
+
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow|Open+Sans:300" />		
+	        <link href="css/styles.css" rel="stylesheet" />
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
+
+		
+
+	</head>
+	
+	<body>
+
+	 <div class="fallback-message">
+		<p>Seu Navegador <b>não é compativel</b>, Você verá uma versão simples da apresentação.</p>
+    		<p>Para uma melhor visualização utilize as versões atualizadas dos navagadores <b>Chrome</b>, <b>Opera</b>,<b>Safari</b> ou <b>Firefox</b>.</p>
+	</div> 
+
+			
+		<div id="impress" class="impress-not-supported">
+								
+			<div id="slide1" class="step slide" data-x="0" data-y="0" data-z="1000"  data-transition-duration="8000">
+					<q>Trazemos até você uma <b>nova maneira</b> de mostrar seus produtos e serviços de forma 							mais <i>interativa e atraente</i>.</q>
+			</div>
+			
+			<div id="slide2" class="step slide" data-x="715" data-y="0" data-z="500"  data-transition-duration="3000">
+					<br><center><p><strong>Ficou interessado?</strong></p></center> <br> <sup>Conheça um pouco sobre 								nós...</sup> 
+				<div id="logorodape" align="center"> <image src="img/BRIGHT22.png"></div>		
+			</div>
+
+			<div id="slide3" class="step slide" data-x="1430" data-y="0" data-z="100" data-rotate-y="90" data-rotate-z="90" data-transition-duration="66000">
+				<br>
+				<center>
+				<a href="http://www.bright-tp.com.br/" target="_blank" title="Bright tecnologia e Publicidade">Bright tecnologia e Publicidade</a>.</p>
+				</center>
+				<div id="logorodape" align="center"> <image src="img/BRIGHT22.png"></div>		
+				
+				<!--<iframe id="prezi" src="http://prezi.com/embed/7-qk94st9kyc/?
+				bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=1&loop; autohide_ctrls=0&amp; features=undefined&amp;
+				 disabled_features=undefined" width="650" height="500" frameBorder="0">
+				</iframe> -->
+			</div>
+
+			<div id="slide4" class="step slide" data-x="0" data-y="600" data-z="1000" data-transition-duration="4000">
+					<q>Trabalhamos projetando e desenvolvendo estruturas de <b>T.I. para Publicidade</b>.</q>
+				<div id="logorodape" align="center"> <image src="img/BRIGHT22.png"></div> 
+			</div>
+
+			<div id="slide5" class="step slide" data-x="715" data-y="600" data-z="500" data-transition-duration="5000">
+					<q>Implementamos conceitos modernos de <i>T.I. e Publicidade</i> criando uma ferramenta
+					   fundamental para o planejamento da <b>estratégia de marketing</b>.</q> 
+				<div id="logorodape" align="center"> <image src="img/BRIGHT22.png"></div>
+			</div> 
+
+			<div id="slide6" class="step slide" data-x="1430" data-y="600" data-z="100" data-transition-duration="3000">
+					Assesoria completa do inicio ao fim do projeto e acompanhamento em cada nova campanha. 
+				<div id="logorodape" align="center"> <image src="img/BRIGHT22.png"></div> 
+			</div>
+
+			<div id="slide7" class="step slide" data-x="0" data-y="1200" data-z="1000" data-rotate-y="90" data-rotate-z="90" data-transition-duration="3000">
+					<br>Conteudo dinámico e de fácil absorção visual.
+				 <div id="logorodape" align="center"> <image src="img/BRIGHT22.png"></div>
+			</div>
+
+			<div id="slide8" class="step slide" data-x="715" data-y="1200" data-z="500" data-transition-duration="4000">
+					<br>Permite um atendimento personalizado.
+				<div id="logorodape" align="center"> <image src="img/BRIGHT22.png"></div>
+			</div>
+
+			<div id="slide9" class="step" data-x="1430" data-y="1200" data-z="100" data-scale="0.4" data-rotate-y="45" data-transition-duration="2000">
+					<br>Não é só atrair! <br>É manter a atenção em você.					
+				<div id="logorodape" align="center"> <image src="img/BRIGHT22.png"></div>
+			</div> 
+			
+			<!--<div id="overview" class="step" data-x="1024" data-y="768" data-rotate="360" data-scale="7" data-transition-duration="5000">
+			</div>-->
+
+		</div>
+
+			<div class="hint">
+	  	  		<p>Bright Tecnologia e Publicidade</p>
+				<div id="footnote"><p>Use a barra ou as setas para navegar</p></div>
+			</div>
+			<script>
+				if ("ontouchstart" in document.documentElement) { 
+	    				document.querySelector(".hint").innerHTML = "<p>Toque na tela para navegar</p>";
+				}
+			</script> 
+
+		<script type="text/javascript" src="js/impress.js"></script>	
+		
+		<!--social-->
+		<!--twitter-->
+		<div style="position: fixed; bottom: 10px; left: 10px; pointer-events: auto;">
+		<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://show.bright-tp.com.br" data-via="AT_Wi22" 				data-lang="pt" data-hashtags="brighttecnologiaepublicidade" data-dnt="true">Tweetar</a>
+			<script>
+				!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+					if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+			</script>
+		
+		</div>
+		
+		<!--google plus-->
+		<div class="g-plusone" data-size="tall" data-annotation="inline"  data-href="http://show.bright-tp.com.br">
+		</div>
+
+		<!-- Posicione esta tag depois da última tag do botão +1. -->
+		<script type="text/javascript">
+  			window.___gcfg = {lang: 'pt-BR'};
+
+  			(function() {
+    			var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    			po.src = 'https://apis.google.com/js/platform.js';
+    			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  			})();
+		</script>
+		
+		<div class="fb-share-button" data-href="http://show.bright-tp.com.br" data-type="button_count"></div>
+		
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+ 			 var js, fjs = d.getElementsByTagName(s)[0];
+  				if (d.getElementById(id)) return;
+  				js = d.createElement(s); js.id = id;
+  				js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  				fjs.parentNode.insertBefore(js, fjs);
+				}(document, 'script', 'facebook-jssdk'));
+		</script>
+
+		
+		<!-- fim social -->
+		
+		
+		
+	</body>
+</html>
